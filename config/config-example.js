@@ -86,7 +86,7 @@ Main's SSL deploy script from Let's Encrypt looks like:
  *   know what you are doing
  * @type {false | string[]}.
  */
-exports.proxyip = [10.0.0.0/8];
+exports.proxyip = false;
 
 /**
  * Various debug options
