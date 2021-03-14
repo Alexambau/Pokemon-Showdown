@@ -3,7 +3,7 @@
 /**
  * The server port - the port to run Pokemon Showdown under
  */
-exports.port = 8080;
+exports.port = 8000;
 
 /**
  * The server address - the address at which Pokemon Showdown should be hosting
@@ -86,7 +86,7 @@ Main's SSL deploy script from Let's Encrypt looks like:
  *   know what you are doing
  * @type {false | string[]}.
  */
-exports.proxyip = ['127.0.0.0/8']; 
+exports.proxyip = ['10.0.0.0/8']; 
 
 /**
  * Various debug options
